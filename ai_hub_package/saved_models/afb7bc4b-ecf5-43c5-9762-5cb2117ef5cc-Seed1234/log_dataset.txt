@@ -1,0 +1,4 @@
+--------------------------------------------------------------------------------
+dataset_root: ../../../aidata/image_dataset/Training/Raw/result
+opt.select_data: ['global']
+opt.batch_ratio: ['1.0~']

@@ -1,0 +1,4 @@
+--------------------------------------------------------------------------------
+dataset_root: /home/t24106/aidata/data_set/training/
+opt.select_data: ['MJ', 'ST']
+opt.batch_ratio: ['1.0']

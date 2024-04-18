@@ -1,0 +1,15 @@
+2021.11.26
+
+Text Recognition
+char set: korea_char_v1.txt
+
+number of original training: 1024760 EA
+number of LMDB training: Created dataset with 1024760 samples
+
+number of original validation: 138166 EA
+number of LMDB validation: Created dataset with 138166 samples
+
+CUDA_VISIBLE_DEVICES=0,1 python train.py \
+--train_data ./result/ --valid_data ./result_validation \
+--select_data global --batch_ratio 1.0 --Transformation TPS --FeatureExtraction ResNet --SequenceModeling BiLSTM --Prediction Attn --workers 0 \
+--imgH 128 --imgW 256

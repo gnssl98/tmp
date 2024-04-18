@@ -1,0 +1,1 @@
+conda env create --file text_recognition_finance.yaml
